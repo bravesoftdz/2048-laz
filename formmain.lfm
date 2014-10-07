@@ -1,0 +1,48 @@
+object Form1: TForm1
+  Left = 284
+  Height = 80
+  Top = 214
+  Width = 419
+  Caption = '2048-laz  -  github.com/fatanugraha'
+  ClientHeight = 80
+  ClientWidth = 419
+  Color = 10530235
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  OnShow = FormShow
+  ShowHint = True
+  LCLVersion = '1.2.4.0'
+  object btnReset: TButton
+    Left = 8
+    Height = 25
+    Top = 13
+    Width = 400
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = 'New Game'
+    OnClick = btnResetClick
+    OnKeyDown = FormKeyDown
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 14
+    Top = 45
+    Width = 338
+    Anchors = [akLeft, akBottom]
+    Caption = 'github.com/fatanugraha | fatanugraha@outlook.com | cybzlab.web.id'
+    Font.Height = -11
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 14
+    Top = 61
+    Width = 367
+    Anchors = [akLeft, akBottom]
+    Caption = 'this is a clone of 2048 based gablielecirulli''s 2048 written in object pascal. '
+    Font.Height = -11
+    ParentColor = False
+    ParentFont = False
+  end
+end
